@@ -81,8 +81,18 @@ function getTweets() {
             return;
         }
 
+        var output = '';
+
         tweets.forEach(function(tweet) {
-            console.log('text: ' + tweet.text + '\ncreated: ' + tweet.created_at);
+            output += 'text: ' + tweet.text + '\ncreated: ' + tweet.created_at + '\n';
+        });
+
+        console.log(output);
+
+        fs.appendFile('log.txt', 'my-tweets ' + '\n' + output + '\n', 'utf8', function(error) {
+            if (error) {
+                console.log('Error occurred: ' + error);
+            }
         });
     });
 }
@@ -111,10 +121,18 @@ function searchSpotify(input) {
         }
 
         var track = data.tracks.items[0];
-        console.log('Artist: ' + track.artists[0].name);
-        console.log('Name: ' + track.name);
-        console.log('Preview URL: ' + track.preview_url);
-        console.log('Album: ' + track.album.name);
+        output = 'Artist: ' + track.artists[0].name + '\nName: ' + track.name +
+            '\nPreview URL: ' + track.preview_url + '\nAlbum: ' + track.album.name;
+
+        console.log(output);
+
+        fs.appendFile('log.txt', 'spotify-this-song ' + '"' + input + '"' + '\n' +
+            output + '\n\n', 'utf8',
+            function(error) {
+                if (error) {
+                    console.log('Error occurred: ' + error);
+                }
+            });
     });
 }
 
@@ -147,15 +165,21 @@ function searchOmdb(input) {
 
             if (!error && response.statusCode == 200) {
                 var movie = JSON.parse(data);
-                console.log('Title: ' + movie.Title);
-                console.log('Year: ' + movie.Year);
-                console.log('IMDB Rating: ' + movie.imdbRating);
-                console.log('Country: ' + movie.Country);
-                console.log('Language: ' + movie.Language);
-                console.log('Plot: ' + movie.Plot);
-                console.log('Actors: ' + movie.Actors);
-                console.log('Rotten Tomatoes Rating: ' + movie.tomatoRating);
-                console.log('Rotten Tomatoes URL: ' + movie.tomatoURL);
+                output = 'Title: ' + movie.Title + '\nYear: ' + movie.Year +
+                    '\nIMDB Rating: ' + movie.imdbRating + '\nCountry: ' + movie.Country +
+                    '\nLanguage: ' + movie.Language + '\nPlot: ' + movie.Plot + '\nActors: ' +
+                    movie.Actors + '\nRotten Tomatoes Rating: ' + movie.tomatoRating +
+                    '\nRotten Tomatoes URL: ' + movie.tomatoURL;
+
+                console.log(output);
+
+                fs.appendFile('log.txt', 'movie-this ' + '"' + input + '"' + '\n' +
+                    output + '\n\n', 'utf8',
+                    function(error) {
+                        if (error) {
+                            console.log('Error occurred: ' + error);
+                        }
+                    });
             }
         });
 }

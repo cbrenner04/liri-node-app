@@ -1,0 +1,47 @@
+spotify-this-song "thanks bill"
+Artist: El Ten Eleven
+Name: Thanks Bill
+Preview URL: https://p.scdn.co/mp3-preview/5baa45b665ba13d563c718da9a5135f64042dfcb?cid=null
+Album: Transitions
+
+movie-this "mr nobody"
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Country: Belgium, Germany, Canada, France
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: 6.6
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/mr-nobody/
+
+movie-this "run lola run"
+Title: Run Lola Run
+Year: 1998
+IMDB Rating: 7.8
+Country: Germany
+Language: German, English, Japanese
+Plot: After a botched money delivery, Lola has 20 minutes to come up with 100,000 Deutschmarks.
+Actors: Franka Potente, Moritz Bleibtreu, Herbert Knaup, Nina Petri
+Rotten Tomatoes Rating: 7.7
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/run_lola_run/
+
+my-tweets
+text: @kristinapecora remind you of anyone 😘 https://t.co/I8JsAI5W8j
+created: Wed Dec 14 04:20:13 +0000 2016
+text: RT @runnersworld: Marathon training won't necessarily lead to weight loss. On the contrary. https://t.co/6lEX3oFQwA https://t.co/gI8uXb7gaf
+created: Wed Dec 14 01:02:16 +0000 2016
+text: pretty pumped for the #ChicagoMarathon! @kristinapecora
+created: Tue Dec 13 16:17:07 +0000 2016
+text: RT @BrendanMcInnis: Beets by Dre
+#HipHopFood @midnight https://t.co/p9fP6pnF1Z
+created: Tue Dec 13 05:05:14 +0000 2016
+text: Nice https://t.co/ftRVgpRVpr
+created: Tue Dec 13 00:19:30 +0000 2016
+text: These things confuse me https://t.co/fnanYr5Cym
+created: Mon Dec 12 23:51:54 +0000 2016
+text: This was a blast... https://t.co/ZuxQ4ca4lu
+created: Mon Dec 12 23:40:35 +0000 2016
+text: Hello Twitter! #myfirstTweet
+created: Mon Dec 12 23:39:28 +0000 2016
+
