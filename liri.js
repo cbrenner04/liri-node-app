@@ -82,7 +82,7 @@ inquirer.prompt([{
                     getSong(parameter);
                 // otherwise this command is invalid
                 } else {
-                    console.log('Not a valid command.');
+                    getSong('987654321abcdefghijklmnopqrstuvwxyz');
                 }
             // if the command in the file is 'movie-this'
             } else if (command === 'movie-this') {
@@ -136,14 +136,20 @@ function getTweets() {
 
 // get song function
 function getSong(song) {
-    // if a song was passed as an argument
     if (song) {
-        searchSpotify(song);
+        // if it is the unlikely string, search default
+        if (song === '987654321abcdefghijklmnopqrstuvwxyz') {
+            searchOmdb('the sign ace of base');
+        // otherwise search for the song given as argument
+        } else {
+            searchOmdb(song);
+        }
     // otherwise get the song from the user
     } else {
         inquirer.prompt([{
             name: 'song',
-            message: 'What song would you like to see details about?'
+            message: 'What song would you like to see details about?',
+            default: 'the sign ace of base'
         }]).then(function(answer) {
             searchSpotify(answer.song);
         });
