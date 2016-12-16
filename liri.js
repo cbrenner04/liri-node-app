@@ -139,10 +139,10 @@ function getSong(song) {
     if (song) {
         // if it is the unlikely string, search default
         if (song === '987654321abcdefghijklmnopqrstuvwxyz') {
-            searchOmdb('the sign ace of base');
+            searchSpotify('the sign ace of base');
         // otherwise search for the song given as argument
         } else {
-            searchOmdb(song);
+            searchSpotify(song);
         }
     // otherwise get the song from the user
     } else {
