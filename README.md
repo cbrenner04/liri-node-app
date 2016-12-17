@@ -19,10 +19,10 @@ node liri.js
 
 You will be asked to choose from 4 commands. These are:
 
-  * `my-tweets`
-  * `spotify-this-song`
-  * `movie-this`
-  * `do-what-it-says`
+* `my-tweets`
+* `spotify-this-song`
+* `movie-this`
+* `do-what-it-says`
 
 ## my-tweets
 
@@ -33,25 +33,25 @@ This will give you the most recent tweets for my username `cbrenner265`, up to
 
 This will prompt you for a song and then return the following information:
 
-  * Artist(s)
-  * The song's name
-  * A preview link of the song from Spotify
-  * The album that the song is from
+* Artist(s)
+* The song's name
+* A preview link of the song from Spotify
+* The album that the song is from
 
 ## movie-this
 
 This will prompt you for a movie. You can also choose to just see the default
 movie's information. The information it will return is:
 
-  * Title of the movie.
-  * Year the movie came out.
-  * IMDB Rating of the movie.
-  * Country where the movie was produced.
-  * Language of the movie.
-  * Plot of the movie.
-  * Actors in the movie.
-  * Rotten Tomatoes Rating.
-  * Rotten Tomatoes URL.
+* Title of the movie.
+* Year the movie came out.
+* IMDB Rating of the movie.
+* Country where the movie was produced.
+* Language of the movie.
+* Plot of the movie.
+* Actors in the movie.
+* Rotten Tomatoes Rating.
+* Rotten Tomatoes URL.
 
 ## do-what-it-says
 
