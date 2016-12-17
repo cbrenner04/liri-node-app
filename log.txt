@@ -68,3 +68,104 @@ Name: The Sign
 Preview URL: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null
 Album: The Sign (US Album) [Remastered]
 
+spotify-this-song ""I Want it That Way""
+Artist: Backstreet Boys
+Name: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+Album: The Hits--Chapter One
+
+spotify-this-song "the sign ace of base"
+Artist: Ace of Base
+Name: The Sign
+Preview URL: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null
+Album: The Sign (US Album) [Remastered]
+
+movie-this "mr nobody"
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Country: Belgium, Germany, Canada, France
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: 6.6
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/mr-nobody/
+
+my-tweets 
+text: RT @HighCastleTV: How far would you go to protect the ones you love? #HighCastle https://t.co/Yixj1MCELP
+created: Fri Dec 16 15:41:32 +0000 2016
+text: RT @neiltyson: If you've never made a mistake in your life, then you have not achieved as much as you could have -- had you taken more risks
+created: Fri Dec 16 04:47:42 +0000 2016
+text: RT @RubyInside: Seeing Is Believing: Displays Results of Each Code Line - https://t.co/2o5RQqkYHN
+created: Fri Dec 16 04:29:18 +0000 2016
+text: RT @RubyInside: Ruby 2.4 Release Candidate 1 Released: https://t.co/XU4oQUiMp4
+created: Thu Dec 15 16:43:25 +0000 2016
+text: @kristinapecora remind you of anyone 😘 https://t.co/I8JsAI5W8j
+created: Wed Dec 14 04:20:13 +0000 2016
+text: RT @runnersworld: Marathon training won't necessarily lead to weight loss. On the contrary. https://t.co/6lEX3oFQwA https://t.co/gI8uXb7gaf
+created: Wed Dec 14 01:02:16 +0000 2016
+text: pretty pumped for the #ChicagoMarathon! @kristinapecora
+created: Tue Dec 13 16:17:07 +0000 2016
+text: RT @BrendanMcInnis: Beets by Dre
+#HipHopFood @midnight https://t.co/p9fP6pnF1Z
+created: Tue Dec 13 05:05:14 +0000 2016
+text: Nice https://t.co/ftRVgpRVpr
+created: Tue Dec 13 00:19:30 +0000 2016
+text: These things confuse me https://t.co/fnanYr5Cym
+created: Mon Dec 12 23:51:54 +0000 2016
+text: This was a blast... https://t.co/ZuxQ4ca4lu
+created: Mon Dec 12 23:40:35 +0000 2016
+text: Hello Twitter! #myfirstTweet
+created: Mon Dec 12 23:39:28 +0000 2016
+
+spotify-this-song "the sign ace of base"
+Artist: Ace of Base
+Name: The Sign
+Preview URL: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null
+Album: The Sign (US Album) [Remastered]
+
+spotify-this-song "dear mr fantasy"
+Artist: Traffic
+Name: Dear Mr. Fantasy - Stereo Album Version
+Preview URL: https://p.scdn.co/mp3-preview/0393b62f5118fb07b8655da3561809bff4b9b348?cid=null
+Album: 20th Century Masters: The Millennium Collection: The Best Of Traffic
+
+movie-this "mr nobody"
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Country: Belgium, Germany, Canada, France
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: 6.6
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/mr-nobody/
+
+movie-this "satr wars"
+Title: undefined
+Year: undefined
+IMDB Rating: undefined
+Country: undefined
+Language: undefined
+Plot: undefined
+Actors: undefined
+Rotten Tomatoes Rating: undefined
+Rotten Tomatoes URL: undefined
+
+movie-this "star wars"
+Title: Star Wars: Episode IV - A New Hope
+Year: 1977
+IMDB Rating: 8.7
+Country: USA
+Language: English
+Plot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader.
+Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+Rotten Tomatoes Rating: 8.6
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/star_wars/
+
+spotify-this-song ""I Want it That Way""
+Artist: Backstreet Boys
+Name: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+Album: The Hits--Chapter One
+

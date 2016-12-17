@@ -49,54 +49,7 @@ inquirer.prompt([{
         getMovie();
     // if 'do-what-it-says' is selected
     } else if (answer.command === 'do-what-it-says') {
-        // read the random.txt file for the command/parameters
-        fs.readFile('./random.txt', 'utf8', function(error, data) {
-            if (error) {
-                console.log('Error occurred: ' + error);
-            }
-
-            // initialize variables at this level to use later
-            var command;
-            var parameter;
-
-            // if there are more than one argument in the random.txt file
-            if (data.includes(',')) {
-                // split into array
-                var array = data.split(',');
-                // the command is the first argument
-                command = array[0];
-                // the parameter for the command is the second argument
-                parameter = array[1].replace('\n', '');
-            // otherwise its a single argument command
-            } else {
-                command = data.replace('\n', '');
-            }
-
-            // get tweets if 'my-tweets' is in the file
-            if (command === 'my-tweets') {
-                getTweets();
-            // if 'spotify-this-song'
-            } else if (command === 'spotify-this-song') {
-                // if a paramater is included in the file
-                if (parameter) {
-                    getSong(parameter);
-                // otherwise this command is invalid
-                } else {
-                    getSong('987654321abcdefghijklmnopqrstuvwxyz');
-                }
-            // if the command in the file is 'movie-this'
-            } else if (command === 'movie-this') {
-                // if a parameter was given
-                if (parameter) {
-                    getMovie(parameter);
-                // otherwise set the argument to an unlikely string so default is searched
-                } else {
-                    getMovie('987654321abcdefghijklmnopqrstuvwxyz');
-                }
-            } else {
-                console.log('Not a valid command.');
-            }
-        });
+        readRandomTxtFile();
     } else {
         console.log('Please select a valid command.');
     }
@@ -239,6 +192,48 @@ function searchOmdb(input) {
                     console.log('Error occurred: ' + error);
                 }
             });
+        }
+    });
+}
+
+// read random.txt and do as it says
+function readRandomTxtFile() {
+    // read the random.txt file for the command/parameters
+    fs.readFile('./random.txt', 'utf8', function(error, data) {
+        if (error) {
+            console.log('Error occurred: ' + error);
+        }
+
+        // initialize variables at this level to use later
+        var command;
+        var parameter;
+
+        // if there are more than one argument in the random.txt file
+        if (data.includes(',')) {
+            // split into array
+            var array = data.split(',');
+            // the command is the first argument
+            command = array[0];
+            // the parameter for the command is the second argument
+            parameter = array[1].replace('\n', '');
+        // otherwise its a single argument command
+        } else {
+            command = data.replace('\n', '');
+            // set the parameter to an unlikely string
+            parameter = '987654321abcdefghijklmnopqrstuvwxyz';
+        }
+
+        // get tweets if 'my-tweets' is in the file
+        if (command === 'my-tweets') {
+            getTweets();
+        // get song if 'spotify-this-song'
+        } else if (command === 'spotify-this-song') {
+            getSong(parameter);
+        // get movie if the command in the file is 'movie-this'
+        } else if (command === 'movie-this') {
+            getMovie(parameter);
+        } else {
+            console.log('Not a valid command.');
         }
     });
 }
